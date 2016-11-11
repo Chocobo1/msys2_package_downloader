@@ -22,7 +22,7 @@ $ ./msys2_dl.sh --exe-only mingw-w64-x86_64-optipng
     # make sure you have enough free space!
     # this will generate a new file: mingw-w64-x86_64-optipng.tar.xz
 
-$ tar -tf mingw-w64-x86_64-optipng.tar.xz
+$ tar -tf mingw-w64-x86_64-optipng.tar.xz  # let's examine the contents
 bin/
 bin/libatomic-1.dll  # dll dependencies (as specified in PKGBUILD)
 bin/libbz2-1.dll
